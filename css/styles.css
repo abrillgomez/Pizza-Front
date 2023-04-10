@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F3F3F3;
+    color: white;
+}
+
+header {
+    height: 100px;
+    background-color: #222222;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 20px;
+    color: white;
+    padding-top: 25px;
+    list-style: none;
+}
+
+header img {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+main {
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main div h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 119px 302px 20px;
+}
+
+span {
+    color: white;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caja1 {
+    background-image: url("../img/delivery.jpg");
+    background-color: #cccccc;
+    border-radius: 5px;
+    height: 349px;
+    width: 490px;
+}
+
+.caja2 {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: white;
+    flex-direction: column;
+    height: 350px;
+    width: 490px;
+    position: relative;
+}
+
+.caja2 h3 {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.caja2 ol {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.caja2 ol p {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 69px;
+}
+
+.caja2 ol li {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.lista {
+    padding-left: 50px;
+    list-style: none;
+}
+
+.caja2 img {
+    position: absolute;
+    height: 129px;
+    width: 92px;
+    right: 74px;
+    top: 132px;
+    left: 325px;
+    bottom: 89px;
+}
+
+
+footer {
+    height: 150px;
+    background-color: #222222;
+    margin-bottom: 0;
+    position: relative;
+}
+
+footer img {
+    position: absolute;
+    right: 45px;
+    bottom: 35px;
+}
+
+footer nav ul li {
+    margin-top: 11px;
+    color: white;
+    padding-top: 3px;
+    list-style-type: none;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
